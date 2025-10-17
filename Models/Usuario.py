@@ -10,10 +10,11 @@ class Usuario:
     
     def is_admin(self):
         return False
+
     
 class Cliente(Usuario):
     def __init__(self, nombre, email, direccion_postal)-> None:
-        super().__init__(nombre, email) # Atributos comunes con la clase Usuario
+        super().__init__(nombre, email) # Atributos cohyhhhhjmunes con la clase Usuario
         self.direccion_postal = direccion_postal # Direccion postal del cliente
     
 class Administrador(Usuario):
